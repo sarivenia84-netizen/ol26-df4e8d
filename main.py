@@ -1,10 +1,9 @@
-"""MakeFun competition entry: Buy the ticket."""
+import os
 
+# one-liner entry for make.fon "Buy the Ticket" bounty
 LINE = "Buy the ticket. You still remember the trip; you won't remember the price."
 
 # Write the entry file
-import os
-
 output_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 os.makedirs(output_dir, exist_ok=True)
 
