@@ -1,6 +1,6 @@
 import os
 
-# one-liner entry for make.fon "Buy the Ticket" bounty
+# one-liner entry for make.fun "Buy the Ticket" bounty
 LINE = "Buy the ticket. You still remember the trip; you won't remember the price."
 
 # Write the entry file
